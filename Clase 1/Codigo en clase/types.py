@@ -1,0 +1,38 @@
+""" 
+El tipo de dato es el tipo de informacion que se almacena en una variable.
+Para poder saber el tipo de dato de una variable se usa el comando type()
+"""
+
+print("int:")
+print(type(1))
+print(type(0))
+print(type(-5))
+print(type(16516135738765165157575275))
+
+print("float:")
+print(type(1.0))
+print(type(0.0))
+print(type(-5.0))
+print(type(16516135738765165157575275.0))
+print(type(1e3))
+
+print("complex:")
+print(type(1j))
+print(type(0j))
+print(type(1.0j))
+print(type(1 + 1j))
+
+print("bool:")
+print(type(True))
+print(type(False))
+print(type(1 == 1))
+print(type(1 < 2))
+
+print("str:")
+print(type("Hola"))
+print(type('Hola'))
+print(type("""Hola"""))
+
+print("NoneType:")
+print(type(None))
+
